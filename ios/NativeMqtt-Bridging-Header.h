@@ -6,3 +6,5 @@
 #import <React/RCTEventEmitter.h>
 
 #import "Libraries/CocoaMQTT/CocoaMQTT.h"
+#import "Libraries/CocoaAsyncSocket/GCDAsyncSocket.h"
+#import "Libraries/CocoaAsyncSocket/GCDAsyncUdpSocket.h"
