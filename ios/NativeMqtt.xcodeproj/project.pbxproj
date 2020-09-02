@@ -186,6 +186,10 @@
 		678DE559230DE3920083C4AF /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTTFrame.swift; sourceTree = "<group>"; };
 		678DE55A230DE3920083C4AF /* CocoaMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTT.swift; sourceTree = "<group>"; };
 		678DE55B230DE3920083C4AF /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+		678DE55D230DE3920083C4AF /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		678DE55E230DE3920083C4AF /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		678DE55F230DE3920083C4AF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		678DE560230DE3920083C4AF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		67A117D1230E6A820047FD9C /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		EF60E72B2488507700B9159E /* FrameConnAck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameConnAck.swift; sourceTree = "<group>"; };
 		EF60E72C2488507700B9159E /* FrameConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameConnect.swift; sourceTree = "<group>"; };
@@ -250,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				678DE557230DE3920083C4AF /* CocoaMQTT */,
+				678DE55C230DE3920083C4AF /* CocoaAsyncSocket */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -286,6 +291,17 @@
 				678DE55B230DE3920083C4AF /* CocoaMQTTMessage.swift */,
 			);
 			path = CocoaMQTT;
+			sourceTree = "<group>";
+		};
+		678DE55C230DE3920083C4AF /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				678DE55D230DE3920083C4AF /* GCDAsyncUdpSocket.m */,
+				678DE55E230DE3920083C4AF /* GCDAsyncSocket.m */,
+				678DE55F230DE3920083C4AF /* GCDAsyncUdpSocket.h */,
+				678DE560230DE3920083C4AF /* GCDAsyncSocket.h */,
+			);
+			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 		67A117D2230E6A820047FD9C /* Products */ = {
