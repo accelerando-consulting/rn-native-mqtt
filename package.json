@@ -15,6 +15,7 @@
     "clean": "rimraf lib",
     "tsc": "tsc -p .",
     "build": "npm run clean && npm run tsc --",
+    "postinstall": "npm run clean && npm run tsc --",
     "release": "standard-version"
   },
   "keywords": [
